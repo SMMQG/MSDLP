@@ -1,24 +1,24 @@
 # MSDLP
-Official implementation of MSDLP for multi-source rumor localization in higher-order networks.
+Locating the Source of Information in Higher-order Networks
 
-## 运行环境
+## Runtime Environment
 
 - Python 3.10.5
 
-### 主要依赖
+### Main Dependencies
 
-| 包 | 版本 | 用途 |
+| Package | Version | Purpose |
 |---|---:|---|
-| NumPy | 1.24.2 | 数值计算 |
-| pandas | 2.2.2 | 数据处理 |
-| NetworkX | 3.3 | 图网络构建与分析 |
-| Matplotlib | 3.7.1 | 结果可视化 |
-| SciPy | 1.10.1 | 稀疏矩阵、统计和特征值计算 |
-| scikit-learn | 1.5.1 | 评价指标，如 F1-score |
-| HyperNetX | 2.3.5 | 超图构建与分析 |
-| openpyxl | 3.1.2 | Excel 文件读取 |
+| NumPy | 1.24.2 | Numerical Computation |
+| pandas | 2.2.2 | Data Processing |
+| NetworkX | 3.3 | Graph Network Construction and Analysis |
+| Matplotlib | 3.7.1 | Result Visualization  |
+| SciPy | 1.10.1 | Sparse Matrix, Statistics, and Eigenvalue Computation |
+| scikit-learn | 1.5.1 | Evaluation Metrics, such as F1-score |
+| HyperNetX | 2.3.5 | Hypergraph Construction and Analysis |
+| openpyxl | 3.1.2 | Excel File Reading |
 
-安装依赖：
+Install Dependencies:
 
 ```bash
 pip install numpy==1.24.2 pandas==2.2.2 networkx==3.3 matplotlib==3.7.1 scipy==1.10.1 scikit-learn==1.5.1 hypernetx==2.3.5 openpyxl==3.1.2
